@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.image-large {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-container {
+    /* background: linear-gradient(to bottom, #add8e6, #86c5da); */
+
+    /* background: #91321b */
+    /* background: linear-gradient(to bottom, #91321b, #da5838); rusty orange, dark to light */
+
+    background: linear-gradient(to right, #3F5F92, #6ABDEF);
+}
+
+.greeting-text, a {
+    /* color: white; */
+    color: #FFFFF0
+}
+
+a { 
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FFFFF0;
+}
+
+h1 { 
+    margin-bottom: 1rem;
+}
+
+.cottage-image {
+    background-image: url('assets/cottage.JPG');
+}
+
+.cat-bottle-image { 
+    background-image: url('assets/bridge.JPG');
+}
+
+.carbon-image {
+    background-image: url('assets/carbon.JPG');
+}
+
+.img-test {
+    height: 100%;
+    /* width: 100%; */
+    width: 642px;
+    object-fit: cover;
+}
+
+.footer {
+}
+
+.bottom-image-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottom-image {
+    /* image-orientation: from-image; */
+}
+
+.greeting-row { /* change this to bootstrap columns */
+    width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .greeting-row {
+        width: 100%;
+    }
+}
