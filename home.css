@@ -17,7 +17,17 @@ html, body {
     /* background: linear-gradient(to bottom, #91321b, #da5838); rusty orange, dark to light */
 
     background: linear-gradient(to right, #3F5F92, #6ABDEF);
+    height: 100%;
 }
+
+.page-row { 
+    height: 50%;
+}
+
+.content-column {
+    height: 100%;
+}
+
 
 .greeting-text, a {
     /* color: white; */
