@@ -24,8 +24,27 @@ html, body {
     height: 50%;
 }
 
+.no-margin {
+    margin: 0;
+}
+
+.no-pad {
+    padding: 0;
+}
+
 .content-column {
     height: 100%;
+    /* border-bottom: solid #FFFFF0 2px; */
+}
+
+.content-column:after {
+    content: '';
+    width: 80%;
+    height: 4px;
+    background: #FFFFF0;
+    position: absolute;
+    bottom: -4px;
+    margin-left: 10%;
 }
 
 
@@ -44,6 +63,26 @@ a:hover {
 
 h1 { 
     margin-bottom: 1rem;
+    font-size: 3.5rem;
+}
+
+.icon-link {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.icon-link:first-of-type {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.icon-link:last-of-type {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.material-icons.md-48 { 
+    font-size: 48px; 
 }
 
 .cottage-image {
@@ -84,7 +123,8 @@ h1 {
 }
 
 @media only screen and (max-width: 767px) {
-    .greeting-row {
-        width: 100%;
+    .content-column:last-of-type:after {
+        height: 0px;
     }
 }
+
