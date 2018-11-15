@@ -17,11 +17,11 @@ html, body {
     /* background: linear-gradient(to bottom, #91321b, #da5838); rusty orange, dark to light */
 
     background: linear-gradient(to right, #3F5F92, #6ABDEF);
-    height: 100%;
+    min-height: 100%;
 }
 
 .page-row { 
-    height: 50%;
+    min-height: 50vh;
 }
 
 .no-margin {
@@ -33,7 +33,7 @@ html, body {
 }
 
 .content-column {
-    height: 100%;
+    min-height: 50vh;
     /* border-bottom: solid #FFFFF0 2px; */
 }
 
@@ -48,9 +48,17 @@ html, body {
 }
 
 
-.greeting-text, a {
-    /* color: white; */
+.greeting-text, .links-text, a {
     color: #FFFFF0
+}
+
+.links-text {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.links-text:first-of-type {
+    margin-top: 30px;
 }
 
 a { 
