@@ -89,6 +89,13 @@ h1 {
     margin-left: 10px;
 }
 
+.peace-img {
+    max-height: 64px;
+    max-width: 64px;
+    height: auto;
+    width: auto;
+}
+
 .material-icons.md-48 { 
     font-size: 48px; 
 }
