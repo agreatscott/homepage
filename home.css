@@ -47,6 +47,10 @@ html, body {
     margin-left: 10%;
 }
 
+.content-column:last-of-type:after {
+    height: 0px;
+}
+
 
 .greeting-text, .links-text, a {
     color: #FFFFF0
@@ -100,28 +104,6 @@ h1 {
     font-size: 48px; 
 }
 
-.cottage-image {
-    background-image: url('assets/cottage.JPG');
-}
-
-.cat-bottle-image { 
-    background-image: url('assets/bridge.JPG');
-}
-
-.carbon-image {
-    background-image: url('assets/carbon.JPG');
-}
-
-.img-test {
-    height: 100%;
-    /* width: 100%; */
-    width: 642px;
-    object-fit: cover;
-}
-
-.footer {
-}
-
 .bottom-image-container {
     position: relative;
     height: 100%;
@@ -133,13 +115,7 @@ h1 {
     /* image-orientation: from-image; */
 }
 
-.greeting-row { /* change this to bootstrap columns */
-    width: 50%;
-}
-
 @media only screen and (max-width: 767px) {
-    .content-column:last-of-type:after {
-        height: 0px;
-    }
+    
 }
 
