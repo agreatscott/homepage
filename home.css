@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     font-family: 'Lato', sans-serif;
+    color: #FFFFF0;
 }
 
 .image-large {
@@ -51,9 +52,9 @@ html, body {
     height: 0px;
 }
 
-
-.greeting-text, .links-text, a {
-    color: #FFFFF0
+.left-aligned-text {
+    margin-top: 20px;
+    margin-left: 5%;
 }
 
 .links-text {
@@ -66,6 +67,7 @@ html, body {
 }
 
 a { 
+    color: #FFFFF0;
     text-decoration: underline;
 }
 
@@ -113,6 +115,17 @@ h1 {
 
 .bottom-image {
     /* image-orientation: from-image; */
+}
+
+
+/* game styles */
+canvas { 
+    display:inline-block;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 5%;
 }
 
 @media only screen and (max-width: 767px) {
